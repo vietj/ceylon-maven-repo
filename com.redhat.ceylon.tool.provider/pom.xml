@@ -10,22 +10,22 @@
     <version>1.2.1</version>
   </parent>
 
-  <artifactId>com.redhat.ceylon.typechecker</artifactId>
+  <artifactId>com.redhat.ceylon.tool.provider</artifactId>
   <version>1.2.1</version>
 
-  <name>com.redhat.ceylon.typechecker</name>
+  <name>com.redhat.ceylon.tool.provider</name>
   <packaging>jar</packaging>
 
   <properties>
-    <jarFile>${ceylon.home}/repo/com/redhat/ceylon/typechecker/1.2.1/com.redhat.ceylon.typechecker-1.2.1.jar</jarFile>
-    <sourcesFile>${ceylon.home}/repo/com/redhat/ceylon/typechecker/1.2.1/com.redhat.ceylon.typechecker-1.2.1.src</sourcesFile>
+    <jarFile>${ceylon.home}/repo/com/redhat/ceylon/tool/provider/1.2.1/com.redhat.ceylon.tool.provider-1.2.1.jar</jarFile>
+    <sourcesFile>${ceylon.home}/repo/com/redhat/ceylon/tool/provider/1.2.1/com.redhat.ceylon.tool.provider-1.2.1.src</sourcesFile>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.antlr</groupId>
-      <artifactId>antlr-runtime</artifactId>
-      <version>3.4</version>
+      <groupId>com.github.rjeschke</groupId>
+      <artifactId>txtmark</artifactId>
+      <version>0.13</version>
     </dependency>
   </dependencies>
 
